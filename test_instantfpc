@@ -1,0 +1,11 @@
+#!/usr/bin/env instantfpc
+
+{ Test https://wiki.freepascal.org/InstantFPC
+
+  To cleanup (but should not be needed in normal usage, it should recompile automatically):
+  rm -Rf ~/.cache/instantfpc/test_instantfpc*
+}
+
+begin
+  Writeln('Hello World! from instantfpc');
+end.

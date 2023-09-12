@@ -1,0 +1,8 @@
+fpmake
+fpmake.exe
+*.fpm
+*.o
+*.ppu
+/code/test_prog
+/installed/
+/bin/
